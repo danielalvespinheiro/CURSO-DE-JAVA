@@ -1,19 +1,18 @@
-package pack;
+package aulasDaUdemi;
 
 import java.util.Scanner;
 
-public class Aula49 {
-	
-	public static void main(String[] args) {
+public class Aula44 {
+	public static void main(String args[]) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
-		
+		int x = sc.nextInt();
 		int soma = 0;
-		for(int i=0; i<n; i++) {
-			int x = sc.nextInt();
+		
+		while(x != 0) {
 			soma = soma + x;
+			x = sc.nextInt();
 		}
 		
 		System.out.println(soma);

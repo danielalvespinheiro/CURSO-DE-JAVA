@@ -1,4 +1,4 @@
-package pack;
+package aulasDaUdemi;
 
 public class Aula49_1 {
 
