@@ -12,11 +12,11 @@ public class EstoqueDeProdutos {
 		Produto pd = new Produto();
 		
 		System.out.println("Coloque os dados dos produtos! ");
-		System.out.println("Produto: ");
+		System.out.print("nome do Produto: ");
 		pd.nome = sc.nextLine();
-		System.out.println("Preço: ");
+		System.out.print("Preço: ");
 		pd.preco = sc.nextDouble();
-		System.out.println("Quantidade em estoque: ");
+		System.out.print("Quantidade em estoque: ");
 		pd.qtdEstoque = sc.nextInt();
 		pd.totalValueStock();
 		

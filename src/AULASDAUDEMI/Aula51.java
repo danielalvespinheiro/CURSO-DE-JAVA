@@ -1,4 +1,4 @@
-package aulasDaUdemi;
+package AULASDAUDEMI;
 
 public class Aula51 {
 	public static void main(String args[]) {
