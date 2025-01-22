@@ -47,9 +47,9 @@ public class ConsoleComCondicionais {
             }else if(resp == 1) {
             	System.out.println("");
             	System.out.println("Imprimindo estatus do estoque: ");
-            	System.out.println(pd.nome + " preço do produto " 
+            	System.out.println(pd.nome + "| preço do produto R$" 
             	+ pd.preco 
-            	+ " quantidade no estoque " 
+            	+ "| quantidade no estoque " 
             	+ pd.qtdEstoque);
             	
             	try {
@@ -82,7 +82,7 @@ public class ConsoleComCondicionais {
         				pd.preco = Double.parseDouble(parsePreco);
         				break;
         			}catch(NumberFormatException e) {
-                		System.out.println("Porfavor insira um valor valido! Tem que ser um valor com virgula");
+                		System.out.println("Porfavor insira um valor valido! Tem que ser um valor com virgula!");
                 	}
         		}
         		//Logica para adicionar a quantidade de produtos

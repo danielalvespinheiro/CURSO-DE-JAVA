@@ -1,4 +1,4 @@
-package capituloDeConstrutores.src;
+package capituloDeConstrutores;
 
 import java.util.Locale;
 import java.util.Scanner;

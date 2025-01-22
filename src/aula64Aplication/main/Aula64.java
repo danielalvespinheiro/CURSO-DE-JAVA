@@ -1,4 +1,4 @@
-package aula64Aplication;
+package aula64Aplication.main;
 
 import java.util.Locale;
 import java.util.Scanner;

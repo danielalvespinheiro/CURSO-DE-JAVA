@@ -18,15 +18,24 @@ public class Aula50_1_BombaRelogio {
         boolean[] bombaDesarmada = {false};
         
         System.out.println("Rápido, a bomba vai explodir em 15 segundos");
-        
+        try {
+			Thread.sleep(2000);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
         // Thread para contagem regressiva
         Thread contagemThread = new Thread(() -> {
+        	try {
+				Thread.sleep(2000);
+			} catch (Exception e) {
+				System.out.println("Erro ao realizar a thread " + e.getMessage());
+			}
             for (int i = 15; i > tempoIn; i--) {
                 System.out.println("Segundos restantes: " + i);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
-                    System.err.println("Erro: " + e.getMessage());
+                    System.err.println("Erro ao realizar a thread " + e.getMessage());
                 }
                 if (bombaDesarmada[0]) {
                     break;
@@ -35,6 +44,7 @@ public class Aula50_1_BombaRelogio {
             if (!bombaDesarmada[0]) {
                 System.out.println("BOOOOOOOMMMMMM \n" + bombaEstatusOff);
                 System.out.println("A bomba explodiu!!!!");
+                System.exit(0);
             }
         });
         
@@ -46,6 +56,7 @@ public class Aula50_1_BombaRelogio {
                 if (senha.equals(senhaCorreta)) {
                     System.out.println("Eita, foi por pouco! Bomba " + bombaEstatusOn);
                     bombaDesarmada[0] = true;
+                    Thread.interrupted();
                 } else {
                     System.out.println("Senha incorreta! Tente novamente.");
                 }
