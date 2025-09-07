@@ -3,7 +3,7 @@ package AULASDAUDEMI;
 import java.util.Locale;
 import java.util.Scanner;
 
-import acharOTriangulo.entites.Triangulo;
+// import acharOTriangulo.entites.Triangulo;
 
 //exercicio, mostrar no terminal o valor da diagonal, da area e do perimetro
 //de um triangulo.
@@ -13,7 +13,7 @@ public class Aula70Exercicio {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		Triangulo tr = new Triangulo();
+		// Triangulo tr = new Triangulo();
 		
 		System.out.println("Por favor, coloque os valores: ");
 		

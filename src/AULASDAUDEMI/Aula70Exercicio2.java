@@ -32,5 +32,6 @@ public class Aula70Exercicio2 {
 		double calculoFinal = salarioLiquido + calculoSalario;
 		
 		System.out.printf("salario final %.2f%n", calculoFinal);
+		sc.close();
 	}
 }

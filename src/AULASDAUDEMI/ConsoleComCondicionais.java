@@ -1,7 +1,5 @@
 package AULASDAUDEMI;
 
-import java.sql.Time;
-import java.text.spi.NumberFormatProvider;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import aula67ProdutoEmEstoque.model.Produto;
@@ -107,6 +105,6 @@ public class ConsoleComCondicionais {
             	System.out.println("");
             }
         }
-        
+        sc.close();
     }
 }

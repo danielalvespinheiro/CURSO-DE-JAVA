@@ -5,6 +5,10 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\desenvolvimento\eclipse\CURSO-DE-JAVA\src"/>
+			<item value="C:\desenvolvimento\eclipse\CURSO-DE-JAVA"/>
+		</list>
 		<section name="SmartImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="526"/>
 			<item key="DIALOG_Y_ORIGIN" value="105"/>

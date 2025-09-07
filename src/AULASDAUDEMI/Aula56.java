@@ -1,7 +1,6 @@
 package AULASDAUDEMI;
 
 import java.awt.Color;
-
 import javax.swing.JFrame;
 
 public class Aula56 {
