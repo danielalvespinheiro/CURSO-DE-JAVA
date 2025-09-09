@@ -7,7 +7,6 @@ public class Aula096 {
 		// Unboxing
 		
 		int x = 20;
-		@SuppressWarnings("unused")
 		int y = 0;
 		
 		Object obj = x; // encaxoto o valor

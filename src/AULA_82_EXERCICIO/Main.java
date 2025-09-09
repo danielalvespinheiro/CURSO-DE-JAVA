@@ -66,6 +66,8 @@ public class Main {
 		System.out.println("Conta: " + titu.getNumberAcount() + ", "
 		+ "Titular: " + titu.getAcountHolder() + ", "
 		+ "Saldo: $" + titu.getBalance());
+		
+		sc.close();
 	}
 
 }
