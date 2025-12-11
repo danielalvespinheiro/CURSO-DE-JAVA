@@ -1,4 +1,4 @@
-package capituloDeConstrutores.src.entite;
+package capituloDeConstrutores.entite;
 
 public class Product {
 	public String name;

@@ -3,7 +3,7 @@ package capituloDeConstrutores;
 import java.util.Locale;
 import java.util.Scanner;
 
-import capituloDeConstrutores.src.entite.Product;
+import capituloDeConstrutores.entite.Product;
 
 public class Program {
 	public static void main(String[] args) {
