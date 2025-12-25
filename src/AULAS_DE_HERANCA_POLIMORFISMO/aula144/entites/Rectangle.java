@@ -1,0 +1,40 @@
+package AULAS_DE_HERANCA_POLIMORFISMO.aula144.entites;
+
+import AULAS_DE_HERANCA_POLIMORFISMO.aula144.enums.Color;
+
+public class Rectangle extends Shape{
+	private Double width;
+	private Double height;
+	
+	public Rectangle() {}
+	
+	public Rectangle(Color color, Double width, Double height) {
+		super(color);
+		this.width = width;
+		this.height = height;
+	}
+
+	// calcula a área do retangulo;
+	@Override
+	public Double area() {
+		// TODO Auto-generated method stub
+		return width * height;
+	}
+
+	public Double getWidth() {
+		return width;
+	}
+
+	public void setWidth(Double width) {
+		this.width = width;
+	}
+
+	public Double getHeight() {
+		return height;
+	}
+
+	public void setHeight(Double height) {
+		this.height = height;
+	}
+	
+}
