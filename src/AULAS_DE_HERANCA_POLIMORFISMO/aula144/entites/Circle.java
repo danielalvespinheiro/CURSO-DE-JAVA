@@ -5,7 +5,6 @@ import AULAS_DE_HERANCA_POLIMORFISMO.aula144.enums.Color;
 public class Circle extends Shape{
 	private Double radius;
 
-	public Circle() {}
 	
 	public Circle(Color color, Double radius) {
 		super(color);
