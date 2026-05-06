@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
+
 import aula177_exercicio.model.entities.Contract;
 import aula177_exercicio.model.entities.Installment;
 import aula177_exercicio.model.service.ContractService;

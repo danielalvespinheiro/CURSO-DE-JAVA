@@ -65,14 +65,6 @@ public class Aula168_exercicio {
 			System.out.println("Error read: "+ e.getMessage());
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
 		sc.close();
 	}
 
