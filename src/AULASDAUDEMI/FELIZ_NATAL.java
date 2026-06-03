@@ -12,7 +12,9 @@ public class FELIZ_NATAL {
 				System.out.print(" ");
 			for (int j=0; j <= i; j++)
 				System.out.print("* ");
+// Sem as chaves executa apenas a linha abaixo, isso é ótimo para outros exemplos.
 				System.out.println();
+			
 		}
 	}
 }

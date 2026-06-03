@@ -1,10 +1,8 @@
 package AULAS_DE_HERANCA_POLIMORFISMO.aula135_EXERCICIO.entities;
 
-import java.util.List;
-
 public class OutsourcedEmployee extends Employee{
 	private Double addictionalCharge;
-
+	
 	public OutsourcedEmployee() {}
 
 	public OutsourcedEmployee(String name, Integer hour, Double valuesPerHour, Double addictionalCharge) {

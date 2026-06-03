@@ -18,7 +18,10 @@ public class Main {
 		myCircle.add(new Circle(5));
 		myCircle.add(new Circle(8));
 		
+		Rectangle r = new Rectangle(1.6, 4.5);
+		
 		System.out.println("Area total: " + totalArea(myCircle));
+		System.out.println("\n Whidth: " + r.getWidht());
 	}
 	
     //Agora o metodo pode aceitar o tipo Shape e qualquer subtipo dele 									
